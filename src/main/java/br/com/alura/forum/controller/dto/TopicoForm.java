@@ -10,12 +10,10 @@ import br.com.alura.forum.repository.CursoRepository;
 
 public class TopicoForm {
 
-	final String MESSAGE_TITULO = "Minimo de 5 characters";
-	final String MESSAGE_MENSAGEM = "Minimo de 10 characters";
 
-	@NotNull @NotEmpty @Size(min = 5, message = MESSAGE_TITULO)
+	@NotNull @NotEmpty @Size(min = 5, max = 50)
 	private String titulo;
-	@NotNull @NotEmpty @Size(min = 10, message = MESSAGE_MENSAGEM)
+	@NotNull @NotEmpty @Size(min = 10)
 	private String mensagem;
 	@NotNull @NotEmpty
 	private String nomeCurso;
