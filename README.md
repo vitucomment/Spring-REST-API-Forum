@@ -21,7 +21,7 @@ O projeto segue o modelo REST de uma API tradicional, encontrada no mercado tecn
 
 ### O que faz?
 
-O usuário pode realizar requisições com os métodos GET, sem a necessidade de autorização para tal. Em método que realizam alguma alteração no banco de dados, faz-se necessário o uso de um Token.<br>
+O usuário pode realizar requisições com os métodos GET, sem a necessidade de autorização para tal. Em métodos que realizam alguma alteração no banco de dados, faz-se necessário o uso de um Token.<br>
 #### O token pode ser obtido realizando uma requisição para "/auth", no corpo da requisição deve haver:
     {
     "email" : "victor@email.com",
@@ -87,6 +87,6 @@ Victor Sousa Almeida
 <a href="https://www.linkedin.com/in/devitu-py/">@Linkedin</a>
 </p>
 
-<h2 id="funcionamento">:man: Funcionamento</h2>
+<h2 id="funcionamento">:eye_speech_bubble: Funcionamento</h2>
 
-   ![gif](https://github.com/vitucomment/WebScrapingJava/blob/master/gif/gif.gif)
+   ![gif](https://github.com/vitucomment/Spring-REST-API-Forum/blob/master/gif/ForumTeste.gif)
