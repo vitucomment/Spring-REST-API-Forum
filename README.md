@@ -21,7 +21,7 @@ O projeto segue o modelo REST de uma API tradicional, encontrada no mercado tecn
 
 ### O que faz?
 
-O usuário pode realizar requisições com os métodos GET, sem a necessidade de autorização para tal. Em método que realizam alguma alteração no banco de dados, faz-se necessário o uso de um Token.<br>
+O usuário pode realizar requisições com os métodos GET, sem a necessidade de autorização para tal. Em métodos que realizam alguma alteração no banco de dados, faz-se necessário o uso de um Token.<br>
 #### O token pode ser obtido realizando uma requisição para "/auth", no corpo da requisição deve haver:
     {
     "email" : "victor@email.com",
