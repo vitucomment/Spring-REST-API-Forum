@@ -89,4 +89,4 @@ Victor Sousa Almeida
 
 <h2 id="funcionamento">:man: Funcionamento</h2>
 
-   ![gif](https://github.com/vitucomment/WebScrapingJava/blob/master/gif/gif.gif)
+   ![gif](https://github.com/vitucomment/Spring-REST-API-Forum/blob/master/gif/ForumTeste.gif)
