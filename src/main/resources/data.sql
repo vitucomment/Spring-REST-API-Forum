@@ -1,4 +1,11 @@
 INSERT INTO USUARIO(nome, email, senha) VALUES('Victor', 'victor@email.com', '$2a$10$oLSXt/aAyHsL5eT5hshS0es1RiBNJ2IcPzJgdFCyfwqsdVkl09Eca');
+INSERT INTO USUARIO(nome, email, senha) VALUES('Moderador', 'moderador@email.com', '$2a$10$oLSXt/aAyHsL5eT5hshS0es1RiBNJ2IcPzJgdFCyfwqsdVkl09Eca');
+insert into PERFIL(id, nome) values (1, 'ROLE_ALUNO');
+insert into PERFIL(id, nome) values (2, 'ROLE_MODERADOR');
+
+INSERT INTO USUARIO_PERFIS(usuario_id, perfis_id) values(1,1);
+INSERT INTO USUARIO_PERFIS(usuario_id, perfis_id) values(2,2);
+
 
 INSERT INTO CURSO(nome, categoria) VALUES('Spring Boot', 'Programação');
 INSERT INTO CURSO(nome, categoria) VALUES('HTML 5', 'Front-end');
